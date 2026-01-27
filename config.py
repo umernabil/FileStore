@@ -24,7 +24,7 @@ DB_NAME = "filestore"
 
 FSUBS = [[-1002201035608, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =    # just put channel id dont add "-1003699328654"
+DB_CHANNEL =   "-1003699328654"
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1003699328654": {"name": "Primary DB", "is_primary": True, "is_active": True},
