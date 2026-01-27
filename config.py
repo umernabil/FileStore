@@ -14,15 +14,15 @@ SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
 SESSION = "yato"
-TOKEN = "642712"
-API_ID = ""
-API_HASH = ""
+TOKEN = "7095361038:AAEA_uu2IehxDl9JfQz8sis_lZI6yI9JhP8"
+API_ID = "20751760"
+API_HASH = "2d96a2cc90d35a3dfb10d5b9d9a755c1"
 WORKERS = 5
 
-DB_URI = "mongodb"
-DB_NAME = "yato"
+DB_URI = "mongodb+srv://Omars:12345678omar@cluster5.yfqfy7o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster5"
+DB_NAME = "filestore"
 
-FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1002201035608, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL =    # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
@@ -33,7 +33,7 @@ DB_CHANNEL =    # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 300
 # Admin IDs
-ADMINS = [6497757690, 6103092779]
+ADMINS = [672222896,]
 # Bot Settings
 DISABLE_BTN = True
 PROTECT = True
