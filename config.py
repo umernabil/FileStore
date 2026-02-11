@@ -14,17 +14,17 @@ SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
 SESSION = "yato"
-TOKEN = "7095361038:AAEA_uu2IehxDl9JfQz8sis_lZI6yI9JhP8"
+TOKEN = "8135216371:AAERBKhsf4p6TEsqBLC7tkH9vEjRcVxA_z0"
 API_ID = "20751760"
 API_HASH = "2d96a2cc90d35a3dfb10d5b9d9a755c1"
 WORKERS = 5
 
-DB_URI = "mongodb+srv://Omars:12345678omar@cluster5.yfqfy7o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster5"
+DB_URI = "mongodb://Omars:12345678omar@cluster5-shard-00-00.yfqfy7o.mongodb.net:27017,cluster5-shard-00-01.yfqfy7o.mongodb.net:27017,cluster5-shard-00-02.yfqfy7o.mongodb.net:27017/?ssl=true&replicaSet=Cluster5-shard-0&authSource=admin&retryWrites=true&w=majority"
 DB_NAME = "filestore"
 
 FSUBS = [[-1002362485325, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =   "-1003699328654"
+DB_CHANNEL =   "1001760325699"
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1003699328654": {"name": "Primary DB", "is_primary": True, "is_active": True},
