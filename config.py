@@ -19,7 +19,7 @@ API_ID = "20751760"
 API_HASH = "2d96a2cc90d35a3dfb10d5b9d9a755c1"
 WORKERS = 5
 
-DB_URI = "mongodb://localhost:27017/filestore"
+DB_URI = "mongodb+srv://Omars:12345678omar@cluster5.yfqfy7o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster5"
 DB_NAME = "filestore"
 
 FSUBS = [[-1002362485325, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
